@@ -70,8 +70,8 @@ const roleOpportunities = [
   {
     title: 'Content & Growth Lead',
     opening: 'Current role held by team member',
-    aiSystem: 'AI Content Generation Engine — 6-agent pipeline: research → SEO → write → edit → design → publish → repurpose → track',
-    myValue: 'The marketing team gets an AI content factory that produces 5 SEO articles daily while they focus on strategy.',
+    aiSystem: 'Full Marketing & Growth Automation — AI-powered content creation (social media, blog, email, video scripts), multi-channel publishing, lead generation funnels, nurture sequences, GHL pipeline automation, and conversion tracking',
+    myValue: 'The growth lead gets a complete AI-powered marketing machine: automated social media content, lead gen funnels, nurturing workflows, retargeting, and pipeline analytics — not just content, but the entire growth engine from first touch to closed deal.',
   },
   {
     title: 'People & Culture / HR',

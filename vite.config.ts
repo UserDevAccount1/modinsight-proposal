@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: process.env.GITHUB_PAGES ? '/modinsight-proposal/' : '/',
+  base: process.env.GITHUB_PAGES === 'true' ? '/modinsight-proposal/' : '/',
   plugins: [
     vue(),
     tailwindcss(),
