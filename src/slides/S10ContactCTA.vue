@@ -6,7 +6,7 @@ import {
 } from 'lucide-vue-next'
 
 const activeSection = ref<'case' | 'proof' | 'offer' | 'video'>('case')
-const videoUrl = ref('')  // Set this to the video URL when provided
+const videoUrl = ref('/Formal_offer.mp4')
 const expandedTimeline = ref<number | null>(null)
 
 const timeline = [
