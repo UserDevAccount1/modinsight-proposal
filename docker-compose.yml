@@ -1,0 +1,7 @@
+services:
+  modinsight-proposal:
+    build: .
+    ports:
+      - "9090:80"
+    restart: unless-stopped
+    container_name: modinsight-proposal
