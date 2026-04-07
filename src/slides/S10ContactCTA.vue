@@ -387,12 +387,13 @@ const roleOpportunities = [
 
           <div class="space-y-3 mb-4">
             <div class="p-4 rounded-lg bg-surface-900/50 border-l-2 border-purple-500/50">
-              <h4 class="text-sm font-bold text-text-primary mb-1">Turn ModCounsel Into a Platform, Not Just a Service</h4>
+              <h4 class="text-sm font-bold text-text-primary mb-1">Accelerate ModInsight — The Platform ModCounsel Is Already Building</h4>
               <p class="text-xs text-text-muted">
-                Right now, ModCounsel sells hours of human expertise at fixed prices.
-                With AI automation, I can help build a <strong class="text-primary-400">self-service layer</strong> where clients
-                handle routine legal tasks themselves (contract templates, compliance checks, FAQ answers) while ModCounsel's
-                experts focus on high-value work. Revenue scales without scaling headcount.
+                ModCounsel is already transforming into a platform through ModInsight — that's the vision.
+                I can help <strong class="text-primary-400">accelerate that transition</strong> by building the automation layers
+                that turn ModInsight from an internal tool into a client-facing product: self-service contract review,
+                AI-powered compliance checks, and automated request handling — so ModCounsel's experts focus on
+                high-value work while ModInsight handles the rest at scale.
               </p>
             </div>
             <div class="p-4 rounded-lg bg-surface-900/50 border-l-2 border-blue-500/50">
