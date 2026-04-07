@@ -36,14 +36,24 @@ const priorityColors: Record<string, string> = {
 <template>
   <div class="h-full w-full overflow-y-auto">
     <div class="min-h-full py-16 px-8 max-w-6xl mx-auto">
-      <div class="flex items-end justify-between mb-8">
+      <div class="flex items-end justify-between mb-4">
         <div>
+          <p class="text-xs font-semibold tracking-widest text-primary-400 uppercase mb-2">Slide 03</p>
           <h2 class="text-4xl font-bold gradient-text mb-2">Product Deep Dive</h2>
-          <p class="text-text-muted">37 publicly claimed features across 6 categories</p>
+          <p class="text-text-muted">37 publicly <strong class="text-amber-400">claimed</strong> features from modInsight.ai — as of April 2026</p>
         </div>
         <div class="text-5xl font-black gradient-text">
           <AnimatedCounter :target="37" />
         </div>
+      </div>
+
+      <!-- Disclaimer -->
+      <div class="glass p-3 mb-6 border-amber-500/10">
+        <p class="text-xs text-text-muted">
+          <strong class="text-amber-400">Source:</strong> These features are extracted directly from
+          <strong class="text-text-primary">modinsight.ai</strong> public website. They represent what ModInsight
+          claims to offer — not an internal audit. Actual implementation may differ or be more advanced.
+        </p>
       </div>
 
       <!-- Category Tabs -->
@@ -88,6 +98,13 @@ const priorityColors: Record<string, string> = {
             <component :is="expandedId === f.id ? ChevronUp : ChevronDown" :size="14" class="text-text-dim mt-2" />
           </div>
         </div>
+      </div>
+
+      <!-- Summary -->
+      <div class="glass p-4 mt-6 mb-4 border-primary-500/10">
+        <p class="text-xs text-text-dim">
+          <strong class="text-primary-400">Summary:</strong> ModInsight publicly claims 37 features across 6 categories — Core Platform (6), Sales Process (5), Finance (6), Compliance & Legal (9), Back Office (6), and Output Claims (5). These are marketing claims from their website, not verified capabilities. The strongest claims include contract redlining, intelligent repository with AI chat, and a 90% operations impact boost backed by the Kandji testimonial.
+        </p>
       </div>
     </div>
   </div>

@@ -16,8 +16,9 @@ const phaseColors = [
 <template>
   <div class="h-full w-full overflow-y-auto">
     <div class="min-h-full py-16 px-8 max-w-6xl mx-auto">
+      <p class="text-xs font-semibold tracking-widest text-primary-400 uppercase mb-2">Slide 08</p>
       <h2 class="text-4xl font-bold gradient-text mb-2">Implementation Roadmap</h2>
-      <p class="text-text-muted mb-8">16-week phased delivery plan</p>
+      <p class="text-text-muted mb-8">16-week phased delivery plan — but I propose starting with a 2-week pilot first</p>
 
       <!-- Timeline -->
       <div class="relative">
@@ -75,6 +76,13 @@ const phaseColors = [
             </div>
           </div>
         </div>
+      </div>
+
+      <!-- Summary -->
+      <div class="glass p-4 mt-6 border-primary-500/10">
+        <p class="text-xs text-text-dim">
+          <strong class="text-primary-400">Summary:</strong> 4 phases over 16 weeks — Foundation (API, DB, CI/CD, Vue shell), Core Intelligence (contract pipeline, RAG, redlining, dashboard), AI Agents & Integration (multi-agent orchestration, ERP/email connectors, self-service portal), and Scale & Polish (analytics, compliance, security, documentation). However, I propose starting with a 2-week zero-risk pilot on any single system before committing to the full roadmap.
+        </p>
       </div>
     </div>
   </div>

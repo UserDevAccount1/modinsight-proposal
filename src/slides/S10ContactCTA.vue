@@ -116,7 +116,7 @@ const roleOpportunities = [
             { id: 'case', label: 'What Happened & Scope Reality' },
             { id: 'proof', label: 'What I Built & How It Maps' },
             { id: 'offer', label: 'My Offer & Pilot Proposal' },
-            { id: 'video', label: 'Video Presentation' },
+            { id: 'video', label: 'Role Reposition Statement' },
           ] as const)"
           :key="sec.id"
           @click="activeSection = sec.id"
@@ -456,10 +456,6 @@ const roleOpportunities = [
               <span class="text-text-dim">Portfolio:</span>
               <span class="text-primary-400 font-medium ml-1">neuralyx.ai</span>
             </a>
-            <a href="https://github.com/HierArch24" target="_blank" class="glass px-5 py-2.5 rounded-full text-sm hover:bg-white/5 transition-colors">
-              <span class="text-text-dim">GitHub:</span>
-              <span class="text-primary-400 font-medium ml-1">HierArch24</span>
-            </a>
           </div>
           <p class="text-xs text-text-dim mt-4">
             Built with Vue 3 + Tailwind + TypeScript + Docker — this presentation is the proof.
@@ -475,8 +471,8 @@ const roleOpportunities = [
               <Zap :size="24" class="text-primary-400" />
             </div>
             <div>
-              <h3 class="font-bold text-lg text-text-primary">Video Presentation</h3>
-              <p class="text-xs text-text-dim">Watch my full walkthrough of this proposal</p>
+              <h3 class="font-bold text-lg text-text-primary">Role Reposition Statement</h3>
+              <p class="text-xs text-text-dim">My formal case for repositioning — in my own words</p>
             </div>
           </div>
 
@@ -490,7 +486,7 @@ const roleOpportunities = [
               </div>
               <h4 class="text-lg font-bold text-text-primary mb-2">Video Coming Soon</h4>
               <p class="text-sm text-text-dim max-w-md">
-                The video walkthrough of this presentation will be available here.
+                My recorded statement on why I'm repositioning — and what I bring to modCounsel in a different capacity.
               </p>
             </div>
             <video

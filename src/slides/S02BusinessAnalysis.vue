@@ -8,6 +8,7 @@ import { ArrowRight, MapPin, Users, Calendar, DollarSign } from 'lucide-vue-next
   <div class="h-full w-full overflow-y-auto">
     <div class="min-h-full flex flex-col justify-start py-16 px-8 max-w-6xl mx-auto">
       <div class="mb-10">
+        <p class="text-xs font-semibold tracking-widest text-primary-400 uppercase mb-2">Slide 02</p>
         <h2 class="text-4xl font-bold mb-2">
           <span class="gradient-text">ModCounsel</span>
           <ArrowRight :size="28" class="inline mx-3 text-text-dim" />
@@ -98,6 +99,13 @@ import { ArrowRight, MapPin, Users, Calendar, DollarSign } from 'lucide-vue-next
             <ArrowRight v-if="i < evolutionTimeline.length - 1" :size="16" class="text-surface-600 shrink-0" />
           </div>
         </div>
+      </div>
+
+      <!-- Summary -->
+      <div class="glass p-4 mt-6 border-primary-500/10">
+        <p class="text-xs text-text-dim">
+          <strong class="text-primary-400">Summary:</strong> ModCounsel is a tech-enabled legal services firm with a global delivery model (SF, Manila, Buenos Aires, LA), fixed-fee pricing, and 88-96% client referral rates. ModInsight.ai is their AI product evolution — turning manual legal operations into automated, AI-powered workflows under the "Tech + Talent = 3x efficiency" model.
+        </p>
       </div>
     </div>
   </div>

@@ -240,6 +240,13 @@ const agentIcons: Record<string, any> = {
           </div>
         </div>
       </div>
+
+      <!-- Summary -->
+      <div class="glass p-4 mt-6 border-primary-500/10">
+        <p class="text-xs text-text-dim">
+          <strong class="text-primary-400">Summary:</strong> 7 predicted AI agents mapped across 5 architecture layers — Frontend Architect (DevOps), Backend Orchestrator (DevOps), AI Intelligence (MLOps), Data Engineering (DataOps), Integration Ops (DevOps), plus cross-cutting Security (SecOps) and Full Stack Developer (FullStackOps) agents. Each agent has specific features it enables, CI/CD pipeline tasks, and job description alignment. This is a predicted architecture — ModInsight may already have more advanced systems in production.
+        </p>
+      </div>
     </div>
   </div>
 </template>
