@@ -5,7 +5,8 @@ import {
   Users, Bot, Briefcase, Shield, ChevronDown, ChevronUp, Sparkles, Zap
 } from 'lucide-vue-next'
 
-const activeSection = ref<'case' | 'proof' | 'offer'>('case')
+const activeSection = ref<'case' | 'proof' | 'offer' | 'video'>('case')
+const videoUrl = ref('')  // Set this to the video URL when provided
 const expandedTimeline = ref<number | null>(null)
 
 const timeline = [
@@ -115,6 +116,7 @@ const roleOpportunities = [
             { id: 'case', label: 'What Happened & Scope Reality' },
             { id: 'proof', label: 'What I Built & How It Maps' },
             { id: 'offer', label: 'My Offer & Pilot Proposal' },
+            { id: 'video', label: 'Video Presentation' },
           ] as const)"
           :key="sec.id"
           @click="activeSection = sec.id"
@@ -462,6 +464,43 @@ const roleOpportunities = [
           <p class="text-xs text-text-dim mt-4">
             Built with Vue 3 + Tailwind + TypeScript + Docker — this presentation is the proof.
           </p>
+        </div>
+      </div>
+
+      <!-- ══════ SECTION 4: VIDEO PRESENTATION ══════ -->
+      <div v-if="activeSection === 'video'">
+        <div class="glass p-6 mb-6 border-primary-500/10">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-12 h-12 rounded-xl bg-primary-600/20 flex items-center justify-center">
+              <Zap :size="24" class="text-primary-400" />
+            </div>
+            <div>
+              <h3 class="font-bold text-lg text-text-primary">Video Presentation</h3>
+              <p class="text-xs text-text-dim">Watch my full walkthrough of this proposal</p>
+            </div>
+          </div>
+
+          <!-- Video Player Frame -->
+          <div class="relative w-full rounded-xl overflow-hidden bg-surface-900 border border-white/5" style="aspect-ratio: 16/9;">
+            <div v-if="!videoUrl" class="absolute inset-0 flex flex-col items-center justify-center text-center p-8">
+              <div class="w-20 h-20 rounded-full bg-primary-600/20 flex items-center justify-center mb-4">
+                <svg class="w-8 h-8 text-primary-400" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </div>
+              <h4 class="text-lg font-bold text-text-primary mb-2">Video Coming Soon</h4>
+              <p class="text-sm text-text-dim max-w-md">
+                The video walkthrough of this presentation will be available here.
+              </p>
+            </div>
+            <video
+              v-else
+              :src="videoUrl"
+              controls
+              class="w-full h-full object-contain"
+              preload="metadata"
+            />
+          </div>
         </div>
       </div>
     </div>
