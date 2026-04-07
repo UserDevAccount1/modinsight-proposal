@@ -76,8 +76,8 @@ const roleOpportunities = [
   {
     title: 'People & Culture / HR',
     opening: 'Current role held by team member',
-    aiSystem: 'HR Operations Platform — AI resume screening, automated onboarding, performance analytics, retention prediction',
-    myValue: 'If modOhana handles basic clock-in/clock-out, I build the deep layer: talent analytics, scheduling AI, culture surveys.',
+    aiSystem: 'Full-Stack HR System — clock-in/clock-out, time tracking, leave management, payroll integration, AI resume screening, automated onboarding, performance analytics, retention prediction, and culture surveys',
+    myValue: 'I can build the complete HR platform from ground up: a production-grade time & attendance system with mobile clock-in/out, plus the AI deep layer on top — talent matching, scheduling optimization, and predictive retention.',
   },
   {
     title: 'Legal Operations Associate',
@@ -366,29 +366,97 @@ const roleOpportunities = [
           </div>
         </div>
 
-        <!-- Final Statement -->
+        <!-- Innovator Vision -->
+        <div class="glass p-6 mb-6 border-purple-500/10">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-12 h-12 rounded-xl bg-purple-500/20 flex items-center justify-center">
+              <Sparkles :size="24" class="text-purple-400" />
+            </div>
+            <div>
+              <h3 class="font-bold text-lg text-purple-400">What I Uniquely Bring — The Innovator's Vision</h3>
+              <p class="text-xs text-text-dim">How I would expand ModCounsel beyond what exists today</p>
+            </div>
+          </div>
+
+          <p class="text-sm text-text-muted mb-4">
+            ModCounsel is an <strong class="text-text-primary">outsourced legal department</strong> for growing companies.
+            Instead of hiring a full in-house legal team, businesses contract ModCounsel for contract review,
+            corporate paperwork, risk advisory, and compliance — all on a <strong class="text-text-primary">fixed-price model</strong>.
+            Here's what I see as the next evolution:
+          </p>
+
+          <div class="space-y-3 mb-4">
+            <div class="p-4 rounded-lg bg-surface-900/50 border-l-2 border-purple-500/50">
+              <h4 class="text-sm font-bold text-text-primary mb-1">Turn ModCounsel Into a Platform, Not Just a Service</h4>
+              <p class="text-xs text-text-muted">
+                Right now, ModCounsel sells hours of human expertise at fixed prices.
+                With AI automation, I can help build a <strong class="text-primary-400">self-service layer</strong> where clients
+                handle routine legal tasks themselves (contract templates, compliance checks, FAQ answers) while ModCounsel's
+                experts focus on high-value work. Revenue scales without scaling headcount.
+              </p>
+            </div>
+            <div class="p-4 rounded-lg bg-surface-900/50 border-l-2 border-blue-500/50">
+              <h4 class="text-sm font-bold text-text-primary mb-1">Create a Legal Intelligence Marketplace</h4>
+              <p class="text-xs text-text-muted">
+                Aggregate anonymized insights across all clients into a <strong class="text-primary-400">legal intelligence product</strong>.
+                Benchmarking data, risk trend reports, contract negotiation patterns, and industry-specific playbooks.
+                This transforms ModCounsel from a service provider into a <strong class="text-primary-400">data company</strong> that happens to do legal work.
+              </p>
+            </div>
+            <div class="p-4 rounded-lg bg-surface-900/50 border-l-2 border-green-500/50">
+              <h4 class="text-sm font-bold text-text-primary mb-1">Automated Client Acquisition Machine</h4>
+              <p class="text-xs text-text-muted">
+                I can build the full marketing engine: AI content targeting growth companies, lead scoring against
+                ModCounsel's ideal client profile, personalized outreach sequences, and automated nurturing.
+                The Content & Growth Lead gets an <strong class="text-primary-400">AI-powered growth team</strong> that runs 24/7.
+              </p>
+            </div>
+            <div class="p-4 rounded-lg bg-surface-900/50 border-l-2 border-amber-500/50">
+              <h4 class="text-sm font-bold text-text-primary mb-1">White-Label AI Legal Tools for Clients</h4>
+              <p class="text-xs text-text-muted">
+                Package ModInsight's AI capabilities as a <strong class="text-primary-400">white-label product</strong>
+                that ModCounsel's clients can use independently. Each client gets their own branded portal with
+                contract review, compliance checks, and risk monitoring. New revenue stream, zero additional legal headcount.
+              </p>
+            </div>
+          </div>
+
+          <div class="p-3 rounded-lg bg-purple-500/5 border border-purple-500/10 text-center">
+            <p class="text-xs text-text-muted italic">
+              "ModCounsel has 88-96% client referral rates and $600K+ in negotiated savings.
+              Imagine what happens when every process that generates those numbers is amplified by AI —
+              and when the intelligence from 3,000+ contracts becomes a product itself."
+            </p>
+          </div>
+        </div>
+
+        <!-- Final CTA -->
         <div class="relative glass p-8 text-center border-primary-500/10 overflow-hidden">
           <div class="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary-500/50 to-transparent" />
           <div class="flex items-center justify-center gap-2 mb-4">
             <Sparkles :size="20" class="text-primary-400" />
-            <h3 class="text-lg font-bold gradient-text">The Bottom Line</h3>
+            <h3 class="text-lg font-bold gradient-text">Let's Build This Together</h3>
             <Sparkles :size="20" class="text-primary-400" />
           </div>
           <p class="text-sm text-text-muted max-w-2xl mx-auto mb-6">
-            I don't just write code — I build autonomous systems that replace entire workflows.
+            I don't just write code — I build autonomous systems that expand businesses.
             ModCounsel has the legal expertise. ModInsight has the AI vision.
-            I bring the engineering that connects them: full-stack development, AI agent orchestration,
-            marketing automation, and self-healing DevOps — all from one person who ships production systems end-to-end.
+            I bring the engineering, the automation, and the innovator mindset
+            to turn both into something bigger than the sum of their parts.
           </p>
           <div class="flex flex-wrap justify-center gap-3">
-            <div class="glass px-5 py-2.5 rounded-full text-sm">
+            <a href="mailto:gabrielalvin.info@gmail.com" class="glass px-5 py-2.5 rounded-full text-sm hover:bg-white/5 transition-colors">
               <span class="text-text-dim">Email:</span>
               <span class="text-primary-400 font-medium ml-1">gabrielalvin.info@gmail.com</span>
-            </div>
-            <div class="glass px-5 py-2.5 rounded-full text-sm">
+            </a>
+            <a href="https://neuralyx.ai.dev-environment.site/" target="_blank" class="glass px-5 py-2.5 rounded-full text-sm hover:bg-white/5 transition-colors">
               <span class="text-text-dim">Portfolio:</span>
               <span class="text-primary-400 font-medium ml-1">neuralyx.ai</span>
-            </div>
+            </a>
+            <a href="https://github.com/HierArch24" target="_blank" class="glass px-5 py-2.5 rounded-full text-sm hover:bg-white/5 transition-colors">
+              <span class="text-text-dim">GitHub:</span>
+              <span class="text-primary-400 font-medium ml-1">HierArch24</span>
+            </a>
           </div>
           <p class="text-xs text-text-dim mt-4">
             Built with Vue 3 + Tailwind + TypeScript + Docker — this presentation is the proof.

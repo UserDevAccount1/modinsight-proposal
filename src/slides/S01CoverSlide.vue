@@ -38,14 +38,17 @@ onMounted(() => {
             A comprehensive platform assessment and development proposal
           </p>
 
-          <div class="flex items-center justify-center gap-4 mb-16">
+          <div class="flex items-center justify-center gap-4 mb-16 flex-wrap">
             <div class="glass px-5 py-2.5 rounded-full text-sm">
               <span class="text-text-muted">by</span>
-              <span class="text-text-primary font-semibold ml-1">Gabriel</span>
+              <span class="text-text-primary font-semibold ml-1">Gabriel Alvin Aquino</span>
             </div>
             <div class="glass px-5 py-2.5 rounded-full text-sm text-text-muted">
               April 2026
             </div>
+            <a href="https://neuralyx.ai.dev-environment.site/" target="_blank" class="glass px-5 py-2.5 rounded-full text-sm text-primary-400 hover:text-primary-300 transition-colors">
+              neuralyx.ai
+            </a>
           </div>
 
           <button
