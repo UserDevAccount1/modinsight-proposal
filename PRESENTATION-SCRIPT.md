@@ -144,7 +144,7 @@ And I recognize — the Founding Engineer likely already covers much of this sco
 
 **The innovator's vision** — and this is what I uniquely bring:
 
-First, turn modCounsel into a platform, not just a service. Build a self-service layer where clients handle routine legal tasks themselves while your experts focus on high-value work. Revenue scales without headcount.
+First, accelerate modInsight — the platform modCounsel is already building. You're already making this transition. I can help speed it up by building the automation layers that turn modInsight from an internal tool into a client-facing product: self-service contract review, AI-powered compliance checks, automated request handling — so your legal experts focus on high-value work while modInsight handles the rest at scale.
 
 Second, create a legal intelligence marketplace. Aggregate anonymized insights across all clients into a data product — benchmarking, risk trends, negotiation patterns. ModCounsel becomes a data company that happens to do legal work.
 
